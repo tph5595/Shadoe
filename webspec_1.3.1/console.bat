@@ -1,0 +1,1 @@
+java -jar console/jruby-complete.jar -S irb -r console/console.rb

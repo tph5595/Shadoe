@@ -1,0 +1,80 @@
+Web Application Testing in Java (Watij)
+- WebSpec API
+--------------------------------------------------------------------------
+Release Date: 12/16/10 
+     Version: 1.3.1
+      Author: Brian Knorr <btknorr@gmail.com>
+     License: GNU General Public License (GPL)
+--------------------------------------------------------------------------
+1.3.1:
+- added methods source and source(String) to get and set the browser's source
+- added login dialog support, currently only supported in Mozilla on both Windows and Mac
+- nav bar is displayed by default and shows current browser url, displaying a pop-up browser's current url only works on Mac
+- changed the way click works on a link in Mozilla to fix a bug where evaluating an href's javascript wasn't working
+- added a few more convenience properties
+- fixed JRuby bug where respondsTo was forcing a tag to exist
+- other small bug fixes
+
+1.3:
+- convenience tags and properties for find, with, get, set, and shouldHave...example: spec.find.input().with.type("button");
+- added setting to turn on a navigation bar with url and done button
+- added pauseUntilDone that will wait until the done button is clicked manually on the screen
+- file upload support in IE only - you must set WebSpec.webspec_home for this to work
+- javascript prompt now supported in IE - you must set WebSpec.webspec_home for this to work
+- cookie support: find, create, and delete javascript cookies
+- added WebSpec.source for getting browser's source
+- fixed bug so you now can call find("html")
+- added isVisible, show, and hide for toggling silent_mode at runtime
+- refactored JRuby wrapper to a better design
+- in JRuby you can now force the direction when locating tags using find, child, and parent...example: spec.div.child.table.td[4].parent.tr
+- fixed numerous bugs...big fix for frames in IE
+- updated to latest jxbrowser 2.5.25071
+
+1.2.1:
+- changed default string comparisons to equals, to do a matches use backslashes like "/some contained text/"
+- ability to turn off extra_careful_pause_until_ready for quicker speed but less stability
+- method WebSpec.snap takes picture of visible browser while WebSpec.snapAll includes scrollable content
+- close and closeAll don't crash when there are no browsers
+- added WebSpec.browser to open a default browser without going to a url
+- fixed bug when opening many browsers
+- refactored unit tests into separate tests
+
+1.2:
+- new property methods for with, shouldHave, and set
+- silent mode (browser is hidden)
+- ability to set configuration with JRuby adapter
+- even better irb integration
+- bug fixes
+
+1.1:
+- support for popup browsers
+- integration with Ruby's irb (interactive console)
+- added flash method on tag
+- added url method
+- renamed Spec class to WebSpec
+- thorough testing on Windows, Mac with IE, Safari, and Mozilla
+- restructured folders for easier setup in IDEs like netbeans, eclipse, intellij
+- bug fixes
+
+1.0.1 Beta:
+- renamed "tag" to "find" everywhere
+- local var support
+- "frame" and "iframe" tag support
+- added "child" and "parent" finders
+- support for "all" to interact with all tags
+- bug fixes
+  
+
+1.0 Beta:
+- JxBrowser integration to support safari, mozilla and ie
+- find by tag name
+- filter by property
+- call method on tag
+- get and set property on tag
+- click tag
+- dialog support (alert, confirm, prompt)
+- expectations on tag and dialog
+- junit testcase included
+- full jruby support via webspec.rb
+
+
