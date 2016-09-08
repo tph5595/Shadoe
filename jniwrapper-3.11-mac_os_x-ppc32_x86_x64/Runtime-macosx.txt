@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------
+
+                   JNIWrapper for MacOS X v3.11
+
+ Deploying Software with JNIWrapper
+
+                       Copyright (c) 2000-2014 TeamDev Ltd. All Rights Reserved.
+--------------------------------------------------------------------------------
+This  file  accompanies the License Agreement document. Please  read  the entire
+text below before deploying applications, libraries, or components  that utilize
+JNIWrapper technology.
+
+CONTENTS
+1. List of redistributable files
+2. Software Configuration
+
+================================================================================
+
+1. LIST OF REDISTRIBUTABLE FILES
+
+The following  files are purposed and allowed for  redistribution  with software
+created using JNIWrapper. Please refer to a sub-section below  that  corresponds
+to your platform and version.
+
+  JNIWrapper for MacOS X v3.11
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  bin\ libjniwrap.jnilib - native code library. The  file is placed in the 'bin' 
+                           folder under the installation root.
+                           
+  lib\jniwrap-3.11.jar - library JAR  file.  The  file is  placed
+                           in the  'lib' folder the under installation root.
+
+  [key.zip]\runtime\jniwrap.lic - runtime license  file. The file is  located in
+                 the  'key.zip'  file,  which  you  receive  via  e-mail   after
+                 purchasing the product.
+                                  
+No other files are allowed for redistribution.
+
+2. SOFTWARE CONFIGURATION
+
+For detailed information on software  configuration please refer to the  section
+"Configuring Software" of the "JNIWrapper Programmer's Guide" document.
