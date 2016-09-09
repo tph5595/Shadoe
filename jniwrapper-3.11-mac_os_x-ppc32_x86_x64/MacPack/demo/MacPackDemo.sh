@@ -1,1 +1,0 @@
-/System/Library/Frameworks/JavaVM.framework/Versions/1.4.2/Home/bin/java -cp ../../bin:../../lib/jniwrap-3.9.jar:../lib/macpack-1.1.jar:macpackdemo.jar:../../lib/slf4j-api-1.5.8.jar:../../lib/slf4j-simple-1.5.8.jar com.jniwrapper.macosx.samples.demo.MacPackDemo 

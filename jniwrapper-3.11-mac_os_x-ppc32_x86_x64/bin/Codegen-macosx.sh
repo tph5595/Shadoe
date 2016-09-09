@@ -1,1 +1,0 @@
-/System/Library/Frameworks/JavaVM.framework/Versions/1.4.2/Home/bin/java -cp ../lib/antlr.jar:../lib/license.jar:../lib/licence.jar:../lib/jniwrap-3.11.jar:../lib/jniwrap-generator-3.11.jar:../lib/slf4j-api-1.5.8.jar:../lib/slf4j-simple-1.5.8.jar com.jniwrapper.generator.Application
