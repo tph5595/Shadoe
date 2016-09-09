@@ -4,4 +4,12 @@
   <artifactId>Shadoe</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Shadoe</name>
+  <dependencies>
+        <dependency>
+            <groupId>net.sourceforge.jwebunit</groupId>
+            <artifactId>jwebunit-htmlunit-plugin</artifactId>
+            <version>3.3</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
