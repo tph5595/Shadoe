@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/engine-gecko.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/engine-ie.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/engine-webkit.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/jniwrap-native.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/junit-4.8.2.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/jxbrowser-2.5.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/log4j-1.2.15.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/MozillaGlue.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/MozillaInterfaces.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/mshtml.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/runtime.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/slf4j-api-1.5.8.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/slf4j-log4j12-1.5.8.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/tuxpack-0.2.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/winpack-3.8.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/xulrunner-linux.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/xulrunner-linux64.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/xulrunner-mac.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/lib/xulrunner-windows.jar"/>
-	<classpathentry kind="lib" path="webspec_1.3.1/java/dist/webspec.jar"/>
-	<classpathentry kind="lib" path="jniwrapper-3.11-mac_os_x-ppc32_x86_x64/lib/antlr.jar"/>
-	<classpathentry kind="lib" path="jniwrapper-3.11-mac_os_x-ppc32_x86_x64/lib/jniwrap-3.11.jar"/>
-	<classpathentry kind="lib" path="jniwrapper-3.11-mac_os_x-ppc32_x86_x64/lib/jniwrap-generator-3.11.jar"/>
-	<classpathentry kind="lib" path="jniwrapper-3.11-mac_os_x-ppc32_x86_x64/lib/slf4j-api-1.5.8.jar"/>
-	<classpathentry kind="lib" path="jniwrapper-3.11-mac_os_x-ppc32_x86_x64/lib/slf4j-simple-1.5.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
