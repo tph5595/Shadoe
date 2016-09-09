@@ -22,5 +22,10 @@
 	<classpathentry kind="lib" path="webspec_1.3.1/lib/xulrunner-mac.jar"/>
 	<classpathentry kind="lib" path="webspec_1.3.1/lib/xulrunner-windows.jar"/>
 	<classpathentry kind="lib" path="webspec_1.3.1/java/dist/webspec.jar"/>
+	<classpathentry kind="lib" path="jniwrapper-3.11-mac_os_x-ppc32_x86_x64/lib/antlr.jar"/>
+	<classpathentry kind="lib" path="jniwrapper-3.11-mac_os_x-ppc32_x86_x64/lib/jniwrap-3.11.jar"/>
+	<classpathentry kind="lib" path="jniwrapper-3.11-mac_os_x-ppc32_x86_x64/lib/jniwrap-generator-3.11.jar"/>
+	<classpathentry kind="lib" path="jniwrapper-3.11-mac_os_x-ppc32_x86_x64/lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="jniwrapper-3.11-mac_os_x-ppc32_x86_x64/lib/slf4j-simple-1.5.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
