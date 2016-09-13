@@ -14,6 +14,6 @@ public class ExampleWebTestCase {
         //setTextField("query", "test");
         //setTextField("password", "test123");
         //submit();
-        assertTitleEquals("test - Startpage Web Search");
+        assertTitleEquals("Hello");
     }
 }
